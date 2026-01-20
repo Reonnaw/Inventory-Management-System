@@ -17,7 +17,7 @@ private:
     Baranginventaris inventaris[MAKS_BARANG];
     int jumlahbarang;
 public:
-    Pengelolaaninventaris() : jumlahbarang(0) {}+++++++++++++++++++++++++
+    Pengelolaaninventaris() : jumlahbarang(0) {}
 
     void tambahbarang(int kode, string nama, int jumlah, string satuan, double harga){
         if (jumlahbarang < MAKS_BARANG) {
@@ -165,4 +165,5 @@ int main () {
     } while (pilihan != 6);
 
     return 0;
+
 }
